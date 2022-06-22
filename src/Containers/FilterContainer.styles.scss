@@ -2,7 +2,7 @@
 
 .filters-container {
   background: $white-97;
-  padding: calc($size-m / 2) $size-m;
+  padding: calc(#{$size-m} / 2) $size-m;
   border-bottom: $border;
 }
 

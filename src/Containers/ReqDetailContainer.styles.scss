@@ -36,8 +36,8 @@ $tab-height: 35px;
 
   .close-button {
     position: absolute;
-    left: calc($size-m / 2);
-    top: calc($size-m / 2);
+    left: calc(#{$size-m} / 2);
+    top: calc(#{$size-m} / 2);
     cursor: pointer;
     background: transparent;
     border: 0;

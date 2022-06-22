@@ -48,7 +48,7 @@
   .info-row {
     margin: 0;
     font-size: $font-size-small;
-    padding-bottom: calc($size-m / 2);
+    padding-bottom: calc(#{$size-m} / 2);
 
     &:last-child {
       padding-bottom: 0;
@@ -57,7 +57,7 @@
 
   .info-caption {
     font-weight: bold;
-    padding-right: calc($size-m / 2);
+    padding-right: calc(#{$size-m} / 2);
   }
 
   .info-value {

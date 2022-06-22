@@ -55,7 +55,7 @@ $gray-opacity-40: rgba(158, 158, 158, .4);
 }
 
 .btn-sm {
-  padding: $size-m / 2 $size-m;
+  padding: calc($size-m / 2) $size-m;
   font-size: 0.9rem;
   height: $filter-button-height;
 }

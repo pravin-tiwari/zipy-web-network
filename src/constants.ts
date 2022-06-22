@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const VIEWER_FIELDS = Object.freeze({
   file: Object.freeze({
     key: 'filename',

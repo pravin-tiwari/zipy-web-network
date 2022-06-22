@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { TIMINGS, TIMELINE_DATA_POINT_HEIGHT } from './constants';
 
 /* eslint no-underscore-dangle: 0 */

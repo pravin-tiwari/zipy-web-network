@@ -9,7 +9,7 @@ import ThemeProvider from './state/theme/Context';
 
 const contextClassNames = classNames.bind(Styles);
 
-const NetworkViewer = ({
+const ZipyWebNetwork = ({
   file,
   data,
   fetchOptions,
@@ -41,7 +41,7 @@ const NetworkViewer = ({
   </section>
 );
 
-NetworkViewer.propTypes = {
+ZipyWebNetwork.propTypes = {
   autoHighlightChange: PropTypes.bool,
   containerClassName: PropTypes.string,
   data: PropTypes.object,
@@ -55,7 +55,7 @@ NetworkViewer.propTypes = {
   scrollTimeStamp: PropTypes.number,
 };
 
-NetworkViewer.defaultProps = {
+ZipyWebNetwork.defaultProps = {
   autoHighlightChange: false,
   containerClassName: null,
   data: null,
@@ -69,4 +69,4 @@ NetworkViewer.defaultProps = {
   scrollTimeStamp: null,
 };
 
-export default NetworkViewer;
+export default ZipyWebNetwork;

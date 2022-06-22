@@ -1,12 +1,12 @@
 import React from 'react';
 
-import NetworkViewer from '../../../src/NetworkViewer';
+import ZipyWebNetwork from '../../../src/ZipyWebNetwork';
 import NetworkData from './../data/network.har';
 
 const data = JSON.parse(NetworkData);
 
 const LoadedData = () => (
-  <NetworkViewer
+  <ZipyWebNetwork
     data={data}
     options={{
       showTimeline: false,

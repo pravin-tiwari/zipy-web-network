@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames/bind';
 
-import { NetworkViewer } from 'zipy-web-network';
+import { ZipyWebNetwork } from 'zipy-web-network';
 import Styles from './App.module.scss';
 import Footer from './Components/Footer';
 import { parseQueryString } from './utils';
@@ -26,7 +26,7 @@ const App = () => {
   return (
     <section className={Styles['app-container']}>
       <div className={networkContainerClassName}>
-        <NetworkViewer
+        <ZipyWebNetwork
           onDataLoaded={() => setIsDataLoaded(true)}
           {...fileOptions}
         />

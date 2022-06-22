@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import NetworkViewer from '../../../src/NetworkViewer';
+import ZipyWebNetwork from '../../../src/ZipyWebNetwork';
 import NetworkData from './../data/network.har';
 
 const data = JSON.parse(NetworkData);
@@ -21,7 +21,7 @@ const ScrollExample = () => {
   }, []);
 
   return (
-    <NetworkViewer
+    <ZipyWebNetwork
       data={data}
       scrollRequestPosition="near"
       scrollTimeStamp={scrollTimeStamp}

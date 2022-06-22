@@ -1,5 +1,5 @@
-import NetworkViewer from './NetworkViewer';
+import ZipyWebNetwork from './ZipyWebNetwork';
 
 export {
-  NetworkViewer,
+  ZipyWebNetwork,
 };

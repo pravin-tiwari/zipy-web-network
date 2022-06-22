@@ -39,8 +39,8 @@ $ npm install zipy-web-network
 
 Example
 ```js
-import { NetworkViewer } from 'zipy-web-network';
-<NetworkViewer />
+import { ZipyWebNetwork } from 'zipy-web-network';
+<ZipyWebNetwork />
 ```
 
 #### Props

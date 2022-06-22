@@ -8,7 +8,7 @@ export default {
     dir: './umd',
     format: 'umd',
     sourcemap: 'inline',
-    name: 'NetworkViewer',
+    name: 'ZipyWebNetwork',
   }],
   plugins: [
     ...defaultPlugins,

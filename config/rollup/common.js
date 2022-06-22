@@ -9,7 +9,7 @@ import svgr from '@svgr/rollup';
 import cssnano from 'cssnano';
 import filesize from 'rollup-plugin-filesize';
 
-import pkg from './../../package.json';
+import pkg from '../../package.json';
 
 export const EXTENSIONS = [
   '.ts',
@@ -24,8 +24,11 @@ export const EXTENSIONS = [
   '.svg',
 ];
 
+// @ts-ignore
 const externaldep = []
+  // @ts-ignore
   .concat(pkg.peerDependencies || {})
+  // @ts-ignore
   .concat(Object.keys(pkg.dependencies || {}));
 const externalPredicate = new RegExp(`^(${externaldep.join('|')})($|/)`);
 const externalTest = externaldep.length === 0 ? () => false : (id) => externalPredicate.test(id);
@@ -50,7 +53,7 @@ export const defaultPlugins = [
   nodeResolve({
     mainFields: ['module', 'jsnext', 'main'],
     browser: true,
-    extensions: ['.mjs', '.js', '.jsx', '.json', '.node'],
+    extensions: ['.mjs', '.js', '.jsx', '.json', '.ts', '.tsx', '.node'],
   }),
   commonjs({
     include: /\/node_modules\//,
@@ -61,6 +64,7 @@ export const defaultPlugins = [
     extensions: EXTENSIONS,
     exclude: '/node_modules/**',
     babelHelpers: 'bundled',
+    // @ts-ignore
     passPerPreset: true,
   }),
   external(),
@@ -68,7 +72,7 @@ export const defaultPlugins = [
 ];
 
 export default {
-  input: './src/index.js',
+  input: './src/index.ts',
   external: (id) => {
     if (id === 'babel-plugin-transform-async-to-promises/helpers') {
       return false;

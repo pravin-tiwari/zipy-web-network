@@ -1,7 +1,7 @@
 import smartAsset from 'rollup-plugin-smart-asset';
 
 import common, { defaultPlugins, postcssPlugin } from './common';
-import pkg from './../../package.json';
+import pkg from '../../package.json';
 
 export default {
   ...common,

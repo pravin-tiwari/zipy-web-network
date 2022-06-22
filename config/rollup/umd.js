@@ -8,7 +8,7 @@ export default {
     dir: './umd',
     format: 'umd',
     sourcemap: 'inline',
-    name: 'networkViewer',
+    name: 'NetworkViewer',
   }],
   plugins: [
     ...defaultPlugins,

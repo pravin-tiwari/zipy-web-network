@@ -1,20 +1,20 @@
-Network-Viewer [![npm version](https://badge.fury.io/js/network-viewer.svg)](https://www.npmjs.com/package/network-viewer) [![Test](https://github.com/saucelabs/network-viewer/actions/workflows/test.yml/badge.svg)](https://github.com/saucelabs/network-viewer/actions/workflows/test.yml)
+zipy-web-network [![npm version](https://badge.fury.io/js/zipy-web-network.svg)](https://www.npmjs.com/package/zipy-web-network) [![Test](https://github.com/saucelabs/zipy-web-network/actions/workflows/test.yml/badge.svg)](https://github.com/saucelabs/zipy-web-network/actions/workflows/test.yml)
 ==============
 
 ## Introduction
-Network-Viewer is a **redefined** HAR viewer human friendly view of requests which is build with [React](https://facebook.github.io/react/).
+zipy-web-network is a **redefined** HAR viewer human friendly view of requests which is build with [React](https://facebook.github.io/react/).
 
 The main purpose of this web application is to help you to view HAR files with many features like filters, search, timline charts etc.
 
-If you are interested contributing to this library, please have a look into our [Contributing Guidelines](https://github.com/saucelabs/network-viewer/blob/main/CONTRIBUTING.md). We love to see any kind of contributions 😊!
+If you are interested contributing to this library, please have a look into our [Contributing Guidelines](https://github.com/saucelabs/zipy-web-network/blob/main/CONTRIBUTING.md). We love to see any kind of contributions 😊!
 
 ### Demo
-[Example](https://saucelabs.github.io/network-viewer/?file=https%3A%2F%2Fraw.githubusercontent.com%2Fsaucelabs%2Fnetwork-viewer%2Fmain%2Fexamples%2Fsrc%2Fdata%2Fnetwork.har&isCORSEnabled=false)
+[Example](https://saucelabs.github.io/zipy-web-network/?file=https%3A%2F%2Fraw.githubusercontent.com%2Fsaucelabs%2Fzipy-web-network%2Fmain%2Fexamples%2Fsrc%2Fdata%2Fnetwork.har&isCORSEnabled=false)
 
 ![](https://i.imgur.com/wryjs8l.png)
 
 ## Features
-Main features of Network-Viewer are:
+Main features of zipy-web-network are:
 - **Import/Upload** HAR file
 - **Fetch** HAR file using queryString url use `file=HAR_FILE_URL` and to enable CORS pass `isCORSEnabled=true` (by default CORS is disabled)
 - **Search** request by URL or body content
@@ -26,7 +26,7 @@ Main features of Network-Viewer are:
 
 ## How to use
 ### Import/Upload HAR file
-Visit https://opensource.saucelabs.com/network-viewer/ and Import your HAR file via drag&drop.
+Visit https://opensource.saucelabs.com/zipy-web-network/ and Import your HAR file via drag&drop.
 
 ### Fetch HAR file
 - `file=HAR_FILE_URL` as queryString to pass HAR file url
@@ -34,12 +34,12 @@ Visit https://opensource.saucelabs.com/network-viewer/ and Import your HAR file 
 
 ### Use it as react library
 ```sh
-$ npm install network-viewer
+$ npm install zipy-web-network
 ```
 
 Example
 ```js
-import { NetworkViewer } from 'network-viewer';
+import { NetworkViewer } from 'zipy-web-network';
 <NetworkViewer />
 ```
 
@@ -47,7 +47,7 @@ import { NetworkViewer } from 'network-viewer';
 | prop   | Type   | Default    | Values    | Description   |
 |:---|:---|:---|:---|:---|
 | autoHighlightChange   | Bool   | false   | true, false   | To allow change request highlight on scrollTimeStamp change when requestDetail is visible  |
-| containerClassName   | String   | null   |   | custom-class to overwrite network-viewer's default style  |
+| containerClassName   | String   | null   |   | custom-class to overwrite zipy-web-network's default style  |
 | data   | Object   | null   | { log: { entries: [], pages: [] } }  | HAR file data which should contain log.entries and log.pages  |
 | fetchOptions   | Object   | { withCredentials: true }   |  | axios request option can be set here to fetch HAR file  |
 | file   | String   | null   |  | HAR file URL to fetch requests  |

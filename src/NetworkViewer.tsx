@@ -22,7 +22,7 @@ const NetworkViewer = ({
   onDataError,
   containerClassName,
 }) => (
-  <section className={contextClassNames('network-viewer', containerClassName)}>
+  <section className={contextClassNames('zipy-web-network', containerClassName)}>
     <ThemeProvider options={options}>
       <NetworkProvider
         autoHighlightChange={autoHighlightChange}

@@ -34,7 +34,7 @@ exports[`NetworkTableRow renders without crashing 1`] = `
     >
       <tr
         className="network-table-row info"
-        id="network-viewer-table-row-0"
+        id="zipy-web-network-table-row-0"
         onClick={[Function]}
       >
         <NetworkCellValue

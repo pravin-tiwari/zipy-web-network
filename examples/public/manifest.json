@@ -1,6 +1,6 @@
 {
-  "short_name": "network-viewer",
-  "name": "network-viewer",
+  "short_name": "zipy-web-network",
+  "name": "zipy-web-network",
   "icons": [
     {
       "src": "favicon.ico",

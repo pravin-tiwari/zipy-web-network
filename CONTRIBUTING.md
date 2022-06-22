@@ -1,6 +1,6 @@
-# Contributing to `network-viewer`
+# Contributing to `zipy-web-network`
 
-**Thank you for your interest in `network-viewer`. Your contributions are highly welcome.**
+**Thank you for your interest in `zipy-web-network`. Your contributions are highly welcome.**
 
 There are multiple ways of getting involved:
 
@@ -18,8 +18,8 @@ If you need help, please reach out to us by opening an issue.
 To start working on the code please clone the project first:
 
 ```sh
-$ git clone https://github.com/saucelabs/network-viewer.git
-$ cd network-viewer
+$ git clone https://github.com/saucelabs/zipy-web-network.git
+$ cd zipy-web-network
 $ npm install
 ```
 
@@ -39,7 +39,7 @@ $ npm run build:lib
 
 #### Build examples
 
-To build our [example application](https://opensource.saucelabs.com/network-viewer/), run:
+To build our [example application](https://opensource.saucelabs.com/zipy-web-network/), run:
 
 ```sh
 $ npm run build:examples
@@ -91,7 +91,7 @@ git commit -s -m "adding X to change Y"
 
 ## Release Package
 
-Ensure you have publish rights for the [NPM package](https://www.npmjs.com/package/network-viewer). You can release new version simply by running a manual action called `Manual NPM Publish`. Remember to set *releaseType* to one of `patch`, `minor` or `major`.
+Ensure you have publish rights for the [NPM package](https://www.npmjs.com/package/zipy-web-network). You can release new version simply by running a manual action called `Manual NPM Publish`. Remember to set *releaseType* to one of `patch`, `minor` or `major`.
 
 If you want to do it on your local machine (**less preferred way**), pull the latest commits from the `main` branch and run the release script:
 

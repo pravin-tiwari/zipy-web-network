@@ -1,5 +1,5 @@
 {
-  "name": "network-viewer",
+  "name": "zipy-web-network",
   "version": "1.1.10",
   "main": "./lib/index.js",
   "scripts": {
@@ -30,9 +30,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saucelabs/network-viewer/issues"
+    "url": "https://github.com/saucelabs/zipy-web-network/issues"
   },
-  "homepage": "https://github.com/saucelabs/network-viewer#readme",
+  "homepage": "https://github.com/saucelabs/zipy-web-network#readme",
   "files": [
     "es6/",
     "lib/",

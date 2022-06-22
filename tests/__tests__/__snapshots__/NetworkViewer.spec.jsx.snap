@@ -2,7 +2,7 @@
 
 exports[`renders without crashing 1`] = `
 <section
-  className="network-viewer"
+  className="zipy-web-network"
 >
   <ThemeProvider
     options={null}

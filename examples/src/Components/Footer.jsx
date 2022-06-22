@@ -9,7 +9,7 @@ const Footer = () => (
     </span>
     <a
       className={Styles.link}
-      href="//github.com/saucelabs/network-viewer"
+      href="//github.com/saucelabs/zipy-web-network"
       rel="noopener noreferrer"
       target="_blank"
     >

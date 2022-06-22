@@ -162,7 +162,7 @@ export const TIME_CHART_DEFAULT_PROPS = {
   y: 3.5,
 };
 
-export const ROW_ID_PREFIX = 'network-viewer-table-row-';
+export const ROW_ID_PREFIX = 'zipy-web-network-table-row-';
 
 export const GENERAL_HEADERS = Object.freeze({
   url: Object.freeze({

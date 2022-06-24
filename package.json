@@ -1,6 +1,7 @@
 {
   "name": "zipy-web-network",
-  "version": "1.1.10",
+  "version": "0.0.1-beta",
+  "description": "This module contains the network tab related features for zipy web application",
   "main": "./lib/index.js",
   "scripts": {
     "start": "concurrently -n 'library,example' -c 'bgBlue.bold,bgGreen.bold' 'npm run watch:lib' 'npm run watch:examples'",
@@ -24,15 +25,11 @@
     "release:minor": "npm run release -- minor",
     "release:major": "npm run release -- major"
   },
-  "author": "The Sauce Labs Insights Team <insights@saucelabs.com>",
-  "contributors": [
-    "Farhan Chauhan <farhan687@gmail.com>"
-  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saucelabs/zipy-web-network/issues"
+    "url": "https://github.com/pravin-tiwari/zipy-web-network/issues"
   },
-  "homepage": "https://github.com/saucelabs/zipy-web-network#readme",
+  "homepage": "https://github.com/pravin-tiwari/zipy-web-network#readme",
   "files": [
     "es6/",
     "lib/",
